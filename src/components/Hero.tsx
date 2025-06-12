@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { ProfileBorder, DecorativeLines, PlusIcon } from './DecorativeElements';
 
@@ -19,7 +20,7 @@ export const Hero: React.FC = () => {
       <div className="relative ml-10 mt-[7px] max-md:-order-1 max-md:mt-10">
         <div className="relative w-[493px] h-[493px] overflow-hidden rounded-[50%] max-sm:w-[300px] max-sm:h-[300px]">
           <img
-            src="https://placehold.co/493x532/4a90e2/4a90e2"
+            src="/lovable-uploads/0f44d17b-f2e0-455f-ab5e-11a1b7209ee1.png"
             alt="Profile image of Tarun Kumar"
             className="w-[493px] h-[532px] object-cover absolute left-0 top-0 max-sm:w-[300px] max-sm:h-[324px]"
           />

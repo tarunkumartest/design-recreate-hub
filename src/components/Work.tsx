@@ -42,7 +42,7 @@ export const Work: React.FC = () => {
         
         <ProjectCard
           title="Printstreet.in"
-          imageUrl="https://placehold.co/560x400/e74c3c/e74c3c"
+          imageUrl="/lovable-uploads/dd053dd9-0b4d-46e5-9a39-fa0dbb59ce19.png"
           altText="Printstreet.in project showcase"
         />
       </div>

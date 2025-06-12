@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 interface ProjectCardProps {
@@ -35,7 +36,7 @@ export const Work: React.FC = () => {
       <div className="flex gap-[120px] mb-10 max-md:flex-col max-md:gap-10">
         <ProjectCard
           title="WorldMotorCyleDay.in"
-          imageUrl="https://placehold.co/560x400/2c3e50/2c3e50"
+          imageUrl="/lovable-uploads/3c49a8b0-481d-4246-a92d-99265b805b8b.png"
           altText="WorldMotorCyleDay.in project showcase"
         />
         

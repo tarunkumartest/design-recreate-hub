@@ -5,9 +5,14 @@ interface ProjectCardProps {
   title: string;
   imageUrl: string;
   altText: string;
+  websiteUrl: string;
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ title, imageUrl, altText }) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({ title, imageUrl, altText, websiteUrl }) => {
+  const handleImageClick = () => {
+    window.open(websiteUrl, '_blank');
+  };
+
   return (
     <article className="flex-1">
       <h3 className="text-[#03045E] text-2xl font-semibold leading-[44px] mb-[39px] max-sm:text-xl">
@@ -17,6 +22,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, imageUrl, altText }) =
         src={imageUrl}
         alt={altText}
         className="w-[560px] h-[400px] object-cover rounded-lg max-md:w-full max-md:max-w-[560px] hover:opacity-90 transition-opacity cursor-pointer"
+        onClick={handleImageClick}
       />
     </article>
   );
@@ -38,12 +44,14 @@ export const Work: React.FC = () => {
           title="WorldMotorCyleDay.in"
           imageUrl="/lovable-uploads/3c49a8b0-481d-4246-a92d-99265b805b8b.png"
           altText="WorldMotorCyleDay.in project showcase"
+          websiteUrl="https://worldmotorcycleday.in"
         />
         
         <ProjectCard
           title="Printstreet.in"
           imageUrl="/lovable-uploads/dd053dd9-0b4d-46e5-9a39-fa0dbb59ce19.png"
           altText="Printstreet.in project showcase"
+          websiteUrl="https://printstreet.in"
         />
       </div>
     </section>

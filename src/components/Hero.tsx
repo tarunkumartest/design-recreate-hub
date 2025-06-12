@@ -20,9 +20,9 @@ export const Hero: React.FC = () => {
       <div className="relative ml-10 mt-[7px] max-md:-order-1 max-md:mt-10">
         <div className="relative w-[493px] h-[493px] overflow-hidden rounded-[50%] max-sm:w-[300px] max-sm:h-[300px]">
           <img
-            src="/lovable-uploads/0f44d17b-f2e0-455f-ab5e-11a1b7209ee1.png"
+            src="/lovable-uploads/0bbe5c04-384c-45f9-85b0-d7fdaa0e2899.png"
             alt="Profile image of Tarun Kumar"
-            className="w-[493px] h-[532px] object-cover absolute left-0 top-0 max-sm:w-[300px] max-sm:h-[324px]"
+            className="w-[493px] h-[493px] object-cover object-center absolute left-0 top-0 max-sm:w-[300px] max-sm:h-[300px]"
           />
         </div>
         
